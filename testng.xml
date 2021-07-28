@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="ezyBillV1.ListenerTest" />
+	</listeners>
+	
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="ezyBillV1.STBCreation001"/> 		
+			<class name="ezyBillV1.STBTransfer002" />
+			<class name="ezyBillV1.CustomerCreation003"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
